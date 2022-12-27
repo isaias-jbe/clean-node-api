@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist", // Diretorio onde vai armazenado o código convertido de TS para JS
+        "module": "CommonJS", // Padrão de inporte que será utilizado no código JS
+        "target": "ES2019", // Padrão de converção do código TS para JS, seguindo a versão do Node (ES2019 compativel com Node10+)
+        "esModuleInterop": true, // Altera o importe de arquivo do TS para o padrão suportado pelo JS
+        "allowJs": true // Aceitar arquivos de configuração com a extenção .js
+    }
+}
